@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_kw39/screens/home.dart';
+import 'package:project_kw39/constants/routes.dart';
 
 void main() {
   runApp(const KW39App());
@@ -11,11 +11,11 @@ class KW39App extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: const HomePage()
+      routerConfig: AppRouter.routerConfig,
     );
   }
 }

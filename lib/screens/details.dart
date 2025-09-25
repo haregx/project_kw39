@@ -14,7 +14,8 @@ class DetailsPage extends StatelessWidget {
 		Widget build(BuildContext context) {
 			return Scaffold(
 				appBar: AppBar(
-					title: Text('Details'),
+					title: Text(item.imageTitle),
+          centerTitle: true,
 				),
 						body: SafeArea(
 							child: SingleChildScrollView(
@@ -50,11 +51,11 @@ class DetailsPage extends StatelessWidget {
 													style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Colors.grey[600]),
 													textAlign: TextAlign.end,
 												),
-												Text(
+												/*Text(
 													item.imageTitle,
 													style: Theme.of(context).textTheme.headlineSmall,
 													textAlign: TextAlign.center,
-												),
+												),*/
 											
 												Text(
 													item.imageDescription,
