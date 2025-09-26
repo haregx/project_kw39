@@ -1,16 +1,14 @@
 # project_kw39
 
-A new Flutter project.
+A Flutter gallery app that showcases a personal profile and a curated collection of images.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Responsive gallery grid with image cards
+- Detailed view for each gallery item
+- Personal profile page with circular profile image, name, profession, and description
+- Modern navigation using NavigationBar
+- Scrollable layouts for long content
+- Enlarged profile image dialog on tap
+- Consistent design and theming
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
