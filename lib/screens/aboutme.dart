@@ -88,6 +88,17 @@ class _AboutMePageState extends State<AboutMePage> {
                                   ),
                                   textAlign: TextAlign.center,
                                 ),
+                                const SizedBox(height: 8),
+                                // Datum
+                                const Text(
+                                  'Stand: September 2025',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    color: Colors.grey,
+                                    fontStyle: FontStyle.italic,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
                                 const SizedBox(height: 24),
                                 // Beschreibung
                                 const Text(
